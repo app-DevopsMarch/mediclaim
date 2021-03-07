@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.2.2.RELEASE</version>
+		<version>1.1.1.SNAPSHOT</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.devops.school</groupId>
@@ -75,11 +75,11 @@
 		<distributionManagement>
     			<snapshotRepository>
        				<id>nexus</id>
-       			 	<url>http://65.0.105.219:8081/repository/maven-snapshots/</url>
+       			 	<url>http://13.232.119.19:8081//repository/maven-snapshots/</url>
     			</snapshotRepository>
    				 <repository>
        				<id>nexus</id>
-      			 <url>http://65.0.105.219:8081/repository/maven-releases/</url>
+      			 <url>http://13.232.119.19:8081//repository/maven-releases/</url>
    		 </repository>
  	       </distributionManagement>
 
